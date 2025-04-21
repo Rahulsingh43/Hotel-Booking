@@ -1,0 +1,17 @@
+.tab-content {
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .tab-content h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .tab-content p {
+    font-size: 16px;
+    color: #777;
+  }
+  

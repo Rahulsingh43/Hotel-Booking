@@ -1,0 +1,125 @@
+ /* css in one component overide others with same class name */
+
+/* for detail page  */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  /* width: 85%; */
+  margin: 20px auto;
+}
+
+/* Header */
+.header {
+  padding: 20px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.main-image {
+  width: 60%;
+}
+
+.main-image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.sub-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 40%;
+}
+
+.sub-images img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* Room Info */
+.room-info {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+/* Reservation */
+.reservation {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  /* width: 20%; */
+}
+
+.date-selector {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.date-selector div {
+  width: 48%;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* About Section */
+.about,
+.amenities {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+/* Host Info */
+/* .host {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-top: 20px;
+} */
+
+.host-info {
+  display: flex;
+  gap: 12px;
+}
+
+.host-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.btn-message {
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.btn-reserve {
+  background-color: #ff5a5f;
+  color: #fff;
+  width: 100%;
+}
+/* for detail page  */

@@ -1,0 +1,174 @@
+/* General Layout */
+.container {
+  
+    padding: 2rem;
+    background-color: #fff;
+  }
+  .col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 0.5rem; /* optional gutter */
+  }
+  .col-8 {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+    padding: 0 0.5rem; /* optional gutter */
+  }
+  .col-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 0 0.5rem;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Left Panel */
+  .left-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .left-panel .section {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 24px;
+    font-size: 16px;
+    color: #222;
+  }
+  
+  .left-panel ul {
+    margin-top: 8px;
+    padding-left: 20px;
+    line-height: 1.6;
+  }
+  
+  .host-warning {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .host-warning-icon {
+    font-size: 24px;
+    color: #e11d48;
+  }
+  
+  .highlight {
+    font-weight: 600;
+    color: #222;
+  }
+  
+  .note {
+    font-size: 14px;
+    color: #6b7280;
+  }
+  
+  /* Razorpay Section */
+  .razorpay-section {
+    font-size: 15px;
+    color: #374151;
+    margin-top: 8px;
+  }
+  
+  /* Agreement Notice */
+  .agreement {
+    font-size: 13px;
+    color: #6b7280;
+  }
+  
+  .agreement a {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+  
+  /* Continue Button */
+  .btn {
+    margin-top: 16px;
+    background-color: #e11d48;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 120px;
+  }
+  
+  /* Right Panel */
+  .right-panel {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: white;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  }
+  
+  .room-info {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .room-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .room-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .room-title {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .room-meta {
+    font-size: 14px;
+    color: #6b7280;
+  }
+  
+  .rating {
+    font-weight: 500;
+    color: #f59e0b;
+    font-size: 14px;
+  }
+  
+  /* Price Section */
+  .price-section {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 16px;
+    margin-top: 16px;
+    font-size: 15px;
+  }
+  
+  .price-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+  }
+  
+  .price-total {
+    border-top: 1px solid #e5e7eb;
+    margin-top: 8px;
+    padding-top: 8px;
+    font-weight: bold;
+  }
+  
+  .link {
+    margin-top: 4px;
+    color: #2563eb;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
